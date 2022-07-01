@@ -20,9 +20,11 @@ export function getApolloClient() {
  */
 
 export function _createApolloClient() {
+  const endpoint = process.env.WORDPRESS_GRAPHQL_ENDPOINT || 'https://wp.institutocrismonteiro.com.br/graphql'
+  
   return new ApolloClient({
     link: new HttpLink({
-      uri: removeLastTrailingSlash(process.env.WORDPRESS_GRAPHQL_ENDPOINT),
+      uri: removeLastTrailingSlash(endpoint),
     }),
     cache: new InMemoryCache(),
   })
