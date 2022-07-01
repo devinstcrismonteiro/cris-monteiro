@@ -1,0 +1,5 @@
+export { default as HeroHome } from './HeroHome'
+export { default as HeroTherapists } from './HeroTherapists'
+export { default as HeroTherapist } from './HeroTherapist'
+export { default as HeroMidia } from './HeroMidia'
+export { default as HeroAttendance } from './HeroAttendance'

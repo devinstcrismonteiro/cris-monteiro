@@ -1,0 +1,28 @@
+{
+  "name": "cris-monteiro-site",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env WORDPRESS_GRAPHQL_ENDPOINT=https://wp.institutocrismonteiro.com.br/graphql next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.4.15",
+    "date-fns": "^2.25.0",
+    "graphql": "^15.6.0",
+    "next": "11.1.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-indiana-drag-scroll": "^2.0.1",
+    "styled-components": "^5.3.1",
+    "styled-icons": "^10.43.0",
+    "styled-media-query": "^2.1.2"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "eslint": "7.32.0",
+    "eslint-config-next": "11.1.2"
+  }
+}
