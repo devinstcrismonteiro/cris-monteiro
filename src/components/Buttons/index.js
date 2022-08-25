@@ -4,7 +4,7 @@ import { Button } from '../../styles/base'
 import { IconWhats, IconCart, IconArrowRight, IconArrowLeft } from './styles'
 
 const ButtonWhatsApp = (props) => (
-  <Link href='https://wa.me/5511991176659' passHref>
+  <Link href='https://wa.me/5511988811961' passHref>
     <Button pulse as='a' target="_blank" {...props}>
       Agendar pelo Whatsapp
       <IconWhats size={34} />
@@ -13,7 +13,7 @@ const ButtonWhatsApp = (props) => (
 )
 
 const ButtonShop = ({ id, ...props}) => (
-  <Link href={props.linkSrc || 'https://wa.me/5511991176659'} passHref>
+  <Link href={props.linkSrc || 'https://wa.me/5511988811961'} passHref>
     <a id={id} target="_blank">
       <Button soon {...props}>
         {/* {props.book ? 'Compre o livro' : 'Comprar o curso'} */}
