@@ -5,6 +5,7 @@ import Image from '../../assets/images/default-image.jpg'
 
 import * as S from './styles'
 import { Button } from '../../styles/base'
+import { useEffect, useState } from 'react'
 
 const Card = ({
   image,
@@ -13,6 +14,15 @@ const Card = ({
   openOnNewTab = false,
   ...props
 }) => {
+  const [isExterior, setIsExterior] = useState(false)
+  const urlDefault = 'https://wp.institutocrismonteiro.com.br/voce-pode-salvar-seu-casamento/'
+  const urlExterior = 'https://wp.institutocrismonteiro.com.br/voce-pode-salvar-seu-casamento-exterior/'
+
+  useEffect(() => {
+    const isOther = window.location.hostname.includes('institutodocasamento')
+    setIsExterior(isOther)
+  }, [])
+
   const postImg = props.featuredImage?.sourceUrl || image || Image
   const short_content = shortDescription
     ? shortDescription
@@ -20,7 +30,7 @@ const Card = ({
 
   const link =
     props.type === 'course'
-      ? (props.slug === 'vocepodesalvarseucasamento' ? 'https://wp.institutocrismonteiro.com.br/voce-pode-salvar-seu-casamento/' : `/curso/${props.slug}`)
+      ? (props.slug === 'vocepodesalvarseucasamento' ? urlDefault : `/curso/${props.slug}`)
       : props.type === 'blog'
       ? `/blog/${props.slug}`
       : props.type === 'therapist'
@@ -58,8 +68,16 @@ const Card = ({
               />
             )}
 
-            {props.type !== 'blog' && (
+            {props.type !== 'blog' && !isExterior && (
               <Link href={link} passHref>
+                <Button as='a' id={props.slug} target={openOnNewTab ? '_blank' : ''}>
+                  Saiba mais!
+                </Button>
+              </Link>
+            )}
+
+            {props.type !== 'blog' && isExterior && (
+              <Link href={urlExterior} passHref>
                 <Button as='a' id={props.slug} target={openOnNewTab ? '_blank' : ''}>
                   Saiba mais!
                 </Button>
