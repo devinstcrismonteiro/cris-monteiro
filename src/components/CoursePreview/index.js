@@ -13,8 +13,9 @@ const CoursePreview = () => {
   const urlExterior = 'https://wp.institutocrismonteiro.com.br/voce-pode-salvar-seu-casamento-exterior/'
 
   useEffect(() => {
-    const isOther = window.location.hostname.includes('institutodocasamento')
-    setIsExterior(isOther)
+    // const isOther = window.location.hostname.includes('institutodocasamento')
+    // setIsExterior(isOther)
+    setIsExterior(false)
   }, [])
 
   return (
