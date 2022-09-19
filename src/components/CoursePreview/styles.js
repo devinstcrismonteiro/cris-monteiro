@@ -18,8 +18,10 @@ export const Wrapper = styled.section`
       width: max-content;
     }
 
-    video {
+    video, iframe {
       width: 100%;
+      height: auto;
+      aspect-ratio: 16 / 9;
     }
   }
 `

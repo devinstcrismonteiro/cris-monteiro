@@ -32,10 +32,12 @@ const CoursePreview = () => {
         </SectionHeader>
 
         <div className="video">
-          <video
+          {/* <video
             src="https://wp.institutocrismonteiro.com.br/wp-content/uploads/2021/12/cris-movie-1.mp4"
             controls={true}
-          />
+          /> */}
+
+          <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/RaX9JPWoYdM?rel=0" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
           {/* <Link href="https://go.hotmart.com/V40605865B?dp=1" passHref>
           <Button as="a" id="home-btn-eu-quero" target="_blank">Eu Quero</Button>
