@@ -28,9 +28,7 @@ const HeroTherapist = () => (
       <div className="text">
         <Container>
           <p>
-            Idealizadora e fundadora do Instituto Cris Monteiro, também sou
-            escritora, palestrante, terapeuta matrimonial holística e
-            apresentadora de um canal no YouTube com mais de 260.000 seguidores
+            Idealizadora e fundadora do Instituto Cris Monteiro, também sou escritora, palestrante, terapeuta matrimonial holística e apresentadora de um canal no YouTube com mais de 280.000 seguidores
           </p>
         </Container>
       </div>
