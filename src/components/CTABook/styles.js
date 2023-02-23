@@ -1,8 +1,8 @@
-import styled from 'styled-components'
-import media from 'styled-media-query'
+import styled from "styled-components";
+import media from "styled-media-query";
 
 export const Wrapper = styled.section`
-  background: ${({ bgGrey }) => (bgGrey ? '#e1e2dd' : '#fbf2f5')};
+  background: ${({ bgGrey }) => (bgGrey ? "#e1e2dd" : "#fbf2f5")};
   .line {
     height: 55px;
     background: var(--primary_light);
@@ -17,7 +17,7 @@ export const Wrapper = styled.section`
 
   .book-cta {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 2fr 2fr;
     padding: 4rem 0;
     grid-gap: 2rem;
     align-items: center;
@@ -32,9 +32,9 @@ export const Wrapper = styled.section`
 
   .cta-book {
     display: grid;
-    grid-template-columns: 2fr 1.4fr;
+    grid-template-columns: 2fr 2fr;
     padding: 4rem 0;
-    grid-gap: 6rem;
+    grid-gap: 2rem;
     align-items: center;
 
     &-text {
@@ -44,20 +44,19 @@ export const Wrapper = styled.section`
       }
     }
 
-    ${media.lessThan('medium')`
+    ${media.lessThan("medium")`
       padding: 2rem 0;
       grid-gap: 2rem;
     `}
   }
 
-  ${media.lessThan('medium')`
+  ${media.lessThan("medium")`
     .book-cta, .cta-book {
       grid-template-columns: 1fr;
       justify-content:center;
       text-align: center;
 
       .book-img {
-        width: 70%;
         margin: 0 auto;
       }
 
@@ -70,4 +69,4 @@ export const Wrapper = styled.section`
       display: none;
     }
   `}
-`
+`;

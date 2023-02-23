@@ -1,18 +1,18 @@
-import Img from 'next/image'
+import Img from "next/image";
 
-import Book2 from '../../assets/images/livro-frente.png'
+import Book2 from "../../assets/images/livro-2023-1-2.png";
 
-import { ButtonShop } from '../Buttons'
+import { ButtonShop } from "../Buttons";
 
-import * as S from './styles'
-import { Container } from '../../styles/base'
+import * as S from "./styles";
+import { Container } from "../../styles/base";
 
 const CTABookHome = () => (
   <S.Wrapper bgGrey>
     <div className="line" />
     <Container>
       <div className="book-cta">
-        <div className="book-img" >
+        <div className="book-img">
           <Img src={Book2} alt="Livro Instituto Cris Monteiro" />
         </div>
         <div className="book-cta-text">
@@ -28,7 +28,7 @@ const CTABookHome = () => (
       </div>
     </Container>
   </S.Wrapper>
-)
+);
 
 const CTABook = () => (
   <S.Wrapper>
@@ -43,13 +43,18 @@ const CTABook = () => (
             de inteligência emocional íntima para ser feliz. Sim, você pode
             salvar o seu casamento.
           </p>
-          <ButtonShop id="btn-cta-book-desk" className="desk" book reservation />
+          <ButtonShop
+            id="btn-cta-book-desk"
+            className="desk"
+            book
+            reservation
+          />
         </div>
         <Img src={Book2} alt="Livro Instituto Cris Monteiro" />
         <ButtonShop className="mob" id="btn-cta-book-mob" book reservation />
       </div>
     </Container>
   </S.Wrapper>
-)
+);
 
-export { CTABookHome, CTABook }
+export { CTABookHome, CTABook };
