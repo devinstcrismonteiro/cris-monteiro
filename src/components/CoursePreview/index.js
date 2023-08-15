@@ -1,16 +1,14 @@
-import Link from "next/link";
-
 import SectionHeader from "../SectionHeader";
 
-import * as S from "./styles";
-import { Button, Container } from "../../styles/base";
-import { ButtonShop } from "../Buttons";
 import { useEffect, useState } from "react";
+import { Container } from "../../styles/base";
+import { ButtonShop } from "../Buttons";
+import * as S from "./styles";
 
 const CoursePreview = () => {
   const [isExterior, setIsExterior] = useState(false);
   const urlDefault =
-    "https://wp.institutocrismonteiro.com.br/voce-pode-salvar-seu-casamento/";
+    "https://hotmart.com/pt-br/marketplace/produtos/voce-pode-salvar-o-seu-casamento/H62722095S";
   const urlExterior =
     "https://wp.institutocrismonteiro.com.br/voce-pode-salvar-seu-casamento-exterior/";
 
