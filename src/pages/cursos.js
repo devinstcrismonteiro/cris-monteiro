@@ -6,18 +6,18 @@ import { CTABook } from '../components/CTABook'
 export default function Cursos({ courses }) {
   return (
     <>
-      <CoursesContent data={courses} variant="secondary" />
+      {/* <CoursesContent data={courses} variant="secondary" /> */}
       <CTABook />
     </>
   )
 }
 
-export async function getServerSideProps() {
-  const courses = await getAllCourses()
+// export async function getServerSideProps() {
+//   const courses = await getAllCourses()
 
-  return {
-    props: {
-      courses,
-    },
-  }
-}
+//   return {
+//     props: {
+//       courses,
+//     },
+//   }
+// }
