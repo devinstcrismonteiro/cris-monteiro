@@ -17,7 +17,7 @@ const MenuLinks = [
   { name: 'Sobre mim', path: '/sobre-mim', slug: 'sobre-min', minWidth: true },
   { name: 'Cursos', path: '/cursos', slug: 'cursos' },
   { name: 'Atendimento', path: '/atendimento', slug: 'atendimento' },
-  { name: 'Blog', path: '/blog', slug: 'blog' },
+  // { name: 'Blog', path: '/blog', slug: 'blog' },
   // { name: 'Mídia', path: '/midia' },
 ]
 
