@@ -24,7 +24,7 @@ export default function Home({ posts, courses }) {
       <YoutubeChannel />
       <CoursesContent data={courses} id="home-todos-cursos" />
       <Attendance hasLink bgWhite />
-      {/* <BlogContent data={posts} /> */}
+      <BlogContent data={posts} />
       <ContactUs />
     </>
   )

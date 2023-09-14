@@ -12,7 +12,7 @@ const CoursesContent = ({ id, variant, data }) => (
     variant={variant}
     id={id}
   >
-    {data.map((item, index) => (
+    {data?.map((item, index) => (
       <Card key={item.id} type='course' slider first={index === 0} {...item} />
     ))}
   </SliderContent>

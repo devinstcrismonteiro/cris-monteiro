@@ -59,7 +59,7 @@ const SliderContent = ({
         <ScrollContainer className='indiana-scroll-container--hide-scrollbars'>
           <div className='slider'>
             <>
-              {children.map((item, index) =>
+              {children?.map((item, index) =>
                 cloneElement(item, {
                   key: index,
                   margin,

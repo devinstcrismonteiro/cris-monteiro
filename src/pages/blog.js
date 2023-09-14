@@ -7,11 +7,11 @@ export default function BlogPosts({ posts }) {
 }
 
 export async function getServerSideProps() {
-  // const posts = await getAllPosts()
+  const posts = await getAllPosts()
 
   return {
     props: {
-      posts: [],
+      posts,
     },
   }
 }
