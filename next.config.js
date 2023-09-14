@@ -1,6 +1,6 @@
 module.exports = {
   reactStrictMode: true,
   images: {
-    domains: ['localhost','secureservercdn.net','wp.institutocrismonteiro.com.br'],
+    domains: ['localhost','secureservercdn.net','app.institutocrismonteiro.com.br'],
   },
 }

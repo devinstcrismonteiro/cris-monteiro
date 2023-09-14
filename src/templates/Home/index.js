@@ -3,7 +3,7 @@ import CoursePreview from '../../components/CoursePreview'
 import { CTABookHome } from '../../components/CTABook'
 import ChannelNews from '../../components/ChannelNews'
 import YoutubeChannel from '../../components/YoutubeChannel'
-// import CoursesContent from '../../components/CoursesContent'
+import CoursesContent from '../../components/CoursesContent'
 import Attendance from '../../components/SectionAttendance'
 import BlogContent from '../../components/BlogContent'
 import ContactUs from '../../components/ContactUs'
@@ -22,7 +22,7 @@ export default function Home({ posts, courses }) {
         </Container>
       </section>
       <YoutubeChannel />
-      {/* <CoursesContent data={courses} id="home-todos-cursos" /> */}
+      <CoursesContent data={courses} id="home-todos-cursos" />
       <Attendance hasLink bgWhite />
       {/* <BlogContent data={posts} /> */}
       <ContactUs />

@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "cross-env WORDPRESS_GRAPHQL_ENDPOINT=https://wp.institutocrismonteiro.com.br/graphql next dev",
+    "dev": "cross-env WORDPRESS_GRAPHQL_ENDPOINT=http://app.institutocrismonteiro.com.br/graphql next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
