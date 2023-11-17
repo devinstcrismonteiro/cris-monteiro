@@ -8,7 +8,8 @@ import * as S from "./styles";
 const CoursePreview = () => {
   const [isExterior, setIsExterior] = useState(false);
   const urlDefault =
-    "https://hotmart.com/pt-br/marketplace/produtos/voce-pode-salvar-o-seu-casamento/H62722095S";
+    // "https://hotmart.com/pt-br/marketplace/produtos/voce-pode-salvar-o-seu-casamento/H62722095S";
+    "https://lp.institutocrismonteiro.com.br";
   const urlExterior =
     "https://wp.institutocrismonteiro.com.br/voce-pode-salvar-seu-casamento-exterior/";
 
@@ -26,7 +27,7 @@ const CoursePreview = () => {
             <h1>
               Curso Online
               <br />
-              Você pode salvar seu casamento
+              Descubra o segredo do sucesso no relacionamento
             </h1>
           </S.TextContentLeft>
         </SectionHeader>
@@ -40,7 +41,7 @@ const CoursePreview = () => {
           <iframe
             width="560"
             height="315"
-            src="https://www.youtube-nocookie.com/embed/RaX9JPWoYdM?rel=0"
+            src="https://www.youtube-nocookie.com/embed/zwOsuj-gDGk?rel=0"
             title="YouTube video player"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

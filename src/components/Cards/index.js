@@ -16,7 +16,8 @@ const Card = ({
 }) => {
   const [isExterior, setIsExterior] = useState(false);
   const urlDefault =
-    "https://hotmart.com/pt-br/marketplace/produtos/voce-pode-salvar-o-seu-casamento/H62722095S";
+    // "https://hotmart.com/pt-br/marketplace/produtos/voce-pode-salvar-o-seu-casamento/H62722095S";
+    "https://lp.institutocrismonteiro.com.br";
   const urlExterior =
     "https://wp.institutocrismonteiro.com.br/voce-pode-salvar-seu-casamento-exterior/";
 
