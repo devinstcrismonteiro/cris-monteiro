@@ -7,7 +7,6 @@ export const Grid = styled.div`
     grid-template-columns: ${leftColumn}fr ${rightColumn}fr;
     grid-gap: 20px;
     align-items: center;
-    justify-items:center;
   `}
 
   ${({ secondary }) =>

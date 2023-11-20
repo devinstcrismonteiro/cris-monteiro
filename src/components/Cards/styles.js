@@ -10,13 +10,12 @@ export const Card = styled.div`
     css`
       min-width: 320px;
     `}
-
+/* 
   ${({ first }) =>
     first &&
     css`
-      margin-left: calc(${({ margin }) => margin}px + 15px);
       margin-left: 3rem;
-    `}
+    `} */
 
   .card {
     background: var(--brand_1);
