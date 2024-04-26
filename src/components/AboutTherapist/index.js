@@ -29,23 +29,19 @@ const AboutTherapist = ({ data }) => (
     <Container>
       <div className="content">
         <p>
-          Idealizadora e fundadora do Instituto Cris Monteiro, também sou escritora, palestrante, terapeuta matrimonial holística e apresentadora de um canal no YouTube com mais de 280.000 seguidores, no qual abordo temas relacionados a melhoria do casamento, empoderamento feminino e superação, mostrando como é possível ser bem resolvida e casada ao mesmo tempo.
+          Idealizadora e fundadora do Instituto Cris Monteiro, também sou escritora, palestrante, terapeuta matrimonial holística. Sou apresentadora de um canal no YouTube, com mais de 297.000 seguidores, no qual abordo temas relacionados à melhoria do casamento, empoderamento feminino e superação, mostrando como é possível serem bem resolvidos e casados ao mesmo tempo. 
         </p>
         <p>
-          Sou Terapeuta de Relacionamentos, com mais de 20 mil atendimentos e milhares de resultados de sucesso em minhas Avaliações, Estratégias e Consultorias Amorosas. Dona de uma emocionante história de amor e superação, na qual me tornei mãe e viúva muito cedo, ajudo esposas e maridos a salvarem seus relacionamentos, serem bem resolvidos e bem sucedidos no casamento.
+          Sou Terapeuta de casal, com mais de 7 mil casos atendidos ao longo de minha carreira, ou seja, 22 mil atendimentos e milhares de resultados de sucesso e reconhecimento em minhas Avaliações, Estratégias e Pioneirismo em minhas Consultorias Amorosas. Dona de uma emocionante história de amor e superação, na qual me tornei mãe e viúva muito cedo, ajudo esposas e maridos a salvarem seus relacionamentos, serem bem resolvidos e bem sucedidos no casamento.
         </p>
         <p>
-          Sou licenciada pela Associação Brasileira dos Terapeutas, celebrante matrimonial, acadêmica em Terapias Integrativas pela Universidade Cidade De São Paulo, mentora de relacionamentos, com especialização em: Terapia Integrativa aplicada a saúde e bem estar da mulher; Terapêuticos para prevenção e bem estar humano; Nutrição Holística e Nutracêuticos pela Associação Brasileira dos Terapeutas; Terapia Ortomolecular e estética aplicada ao bem-estar físico, mental, estético e emocional. Fitoterapia enquanto técnica holística, natural, complementar e integrativa e sua atuação no campo físico, mental, emocional e energético para restabelecer o equilíbrio, o bem-estar e a energia. Transtornos Ansiosos e Depressivos, pelo Instituto israelita e Pesquisa Albert Einstein.
+          Sou licenciada pela Associação Brasileira dos Terapeutas, acadêmica em Mediação, mentora de relacionamentos, com especialização em: Terapia Integrativa aplicada a saúde e bem-estar da mulher; Terapêuticos para prevenção e bem-estar humano; Nutrição Holística e Nutracêuticos pela Associação Brasileira dos Terapeutas; Terapia Ortomolecular e estética aplicada ao bem-estar físico, mental, estético e emocional. Fitoterapia enquanto técnica holística, natural, complementar e integrativa e sua atuação no campo físico, mental, emocional e energético para restabelecer o equilíbrio, o bem-estar e a energia. Transtornos Ansiosos e Depressivos, pelo Instituto israelita e Pesquisa Albert Einstein.
         </p>
         <p>
-          Frequentemente sou convidada a participar, contribuindo com meu conhecimento, nos  principais jornais e programas de TV do Brasil.
+        Frequentemente sou convidada a participar, contribuindo com meu conhecimento, nos principais jornais, portais e programas de TV do Brasil.
         </p>
         <p>
-          “O amor é um mistério. O sagrado se mistura ao mistério que poucos tem o prazer de desfrutar.”
-          Assim sou eu… Cheia de histórias ocultas que me levaram a conhecer as barreiras que só quem tem coragem se permite atravessar. Uma travessia de batalhas que me levaram ao profundo conhecimento.
-        </p>
-        <p>
-          Hoje, carrego comigo, por merecimento, a chave que abre a porta da paz no amor. Entretanto, só eu conheço as renúncias que precisei fazer para conquistar o que poucas pessoas tem, “a habilidade de unir as pessoas”!
+          "A possibilidade de restaurar o improvável é o que torna a minha vida mais interessante" (trecho do meu livro Quem ama não desiste).
         </p>
       </div>
     </Container>
