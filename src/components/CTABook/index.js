@@ -23,7 +23,13 @@ const CTABookHome = () => (
             de inteligência emocional íntima para ser feliz. Sim, você pode
             salvar o seu casamento.
           </p>
-          <ButtonShop id="home-btn-book" book reservation />
+          <ButtonShop
+            id="home-btn-book"
+            book
+            reservation
+            text="Adquira já o seu"
+            linkSrc="https://www.amazon.com.br/Quem-ama-desiste-Cris-Monteiro/dp/6558792931"
+          />
         </div>
       </div>
     </Container>

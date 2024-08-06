@@ -27,7 +27,7 @@ const CoursePreview = () => {
             <h1>
               Curso Online
               <br />
-              Descubra o segredo do sucesso no relacionamento
+              Como Salvar o seu Casamento
             </h1>
           </S.TextContentLeft>
         </SectionHeader>
