@@ -54,7 +54,7 @@ const Header = () => {
             </Link>
             <NavMenu type='desk' />
             <ButtonWhatsApp className='desk' id="header-btn-whats-desktop"  />
-            <Link href='https://wa.me/5511988811961' passHref>
+            <Link href='https://wa.me/5511991176659' passHref>
               <a target='_blank' id='header-btn-whats-mobile' className='header-btn-whats-mobile'>
                 <Whatsapp className='mob' size={30} color='currentColor' /> Agendar
               </a>
