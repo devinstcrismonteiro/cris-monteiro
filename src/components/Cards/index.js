@@ -134,7 +134,7 @@ const TherapistCard = ({
             <p style={{ textAlign: 'justify', flexGrow: 1 }}>
               {description}
             </p>
-            <Link href="https://wa.me/5588992500022" passHref>
+            <Link href="https://wa.me/5511991176659" passHref>
               <Button as="a" target="_blank">
                 Saiba mais!
               </Button>
