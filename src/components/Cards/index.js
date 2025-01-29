@@ -111,4 +111,41 @@ const Card = ({
   );
 };
 
+const TherapistCard = ({
+  image,
+  description,
+  name,
+}) => {
+  return (
+    <>
+      <S.Card type="course">
+        <div className="card">
+          <div className="img-load">
+            <Img
+              src={image}
+              alt="Terapeuta"
+              width={340}
+              height={340}
+              layout="responsive"
+            />
+          </div>
+          <div className="card-content">
+            <h3>{name}</h3>
+            <p style={{ textAlign: 'justify', flexGrow: 1 }}>
+              {description}
+            </p>
+            <Link href="https://wa.me/5588992500022" passHref>
+              <Button as="a" target="_blank">
+                Saiba mais!
+              </Button>
+            </Link>
+          </div>
+        </div>
+      </S.Card>
+    </>
+  )
+}
+
+export { TherapistCard }
+
 export default Card;

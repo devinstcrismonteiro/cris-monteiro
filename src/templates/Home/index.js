@@ -7,6 +7,7 @@ import CoursesContent from '../../components/CoursesContent'
 import Attendance from '../../components/SectionAttendance'
 import BlogContent from '../../components/BlogContent'
 import ContactUs from '../../components/ContactUs'
+import { Therapists } from '../../components/SectionTherapists'
 
 import { Container } from '../../styles/base'
 
@@ -22,6 +23,7 @@ export default function Home({ posts, courses }) {
         </Container>
       </section>
       <YoutubeChannel />
+      <Therapists/>
       <CoursesContent data={courses} id="home-todos-cursos" />
       <Attendance hasLink bgWhite />
       <BlogContent data={posts} />
