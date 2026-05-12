@@ -9,7 +9,7 @@ const CoursePreview = () => {
   const [isExterior, setIsExterior] = useState(false);
   const urlDefault =
     // "https://hotmart.com/pt-br/marketplace/produtos/voce-pode-salvar-o-seu-casamento/H62722095S";
-    "https://lp.institutocrismonteiro.com.br";
+    "https://pay.hotmart.com/H62722095S?sck=HOTMART_PRODUCT_PAGE&off=tyfo3xbq&hotfeature=32&bid=1778609294864";
   const urlExterior =
     "https://wp.institutocrismonteiro.com.br/voce-pode-salvar-seu-casamento-exterior/";
 
