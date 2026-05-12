@@ -1,6 +1,6 @@
-import Card from '../Cards'
+import Card from "../Cards";
 
-import SliderContent from '../SliderContent'
+import SliderContent from "../SliderContent";
 
 const Attendances = ({ data }) => (
   <SliderContent>
@@ -9,12 +9,12 @@ const Attendances = ({ data }) => (
         key={item.id}
         slider
         first={index === 0}
-        url='https://wa.me/5511988811961'
+        url="https://wa.me/5511915015788"
         openOnNewTab
         {...item}
       />
     ))}
   </SliderContent>
-)
+);
 
-export default Attendances
+export default Attendances;

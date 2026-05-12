@@ -38,10 +38,10 @@ const Card = ({
         ? urlDefault
         : `/curso/${props.slug}`
       : props.type === "blog"
-      ? `/blog/${props.slug}`
-      : props.type === "therapist"
-      ? `/terapeuta/${props.slug}`
-      : url;
+        ? `/blog/${props.slug}`
+        : props.type === "therapist"
+          ? `/terapeuta/${props.slug}`
+          : url;
 
   return (
     <>
@@ -111,11 +111,7 @@ const Card = ({
   );
 };
 
-const TherapistCard = ({
-  image,
-  description,
-  name,
-}) => {
+const TherapistCard = ({ image, description, name }) => {
   return (
     <>
       <S.Card type="course">
@@ -131,10 +127,8 @@ const TherapistCard = ({
           </div>
           <div className="card-content">
             <h3>{name}</h3>
-            <p style={{ textAlign: 'justify', flexGrow: 1 }}>
-              {description}
-            </p>
-            <Link href="https://wa.me/5511988811961" passHref>
+            <p style={{ textAlign: "justify", flexGrow: 1 }}>{description}</p>
+            <Link href="https://wa.me/5511915015788" passHref>
               <Button as="a" target="_blank">
                 Saiba mais!
               </Button>
@@ -143,9 +137,9 @@ const TherapistCard = ({
         </div>
       </S.Card>
     </>
-  )
-}
+  );
+};
 
-export { TherapistCard }
+export { TherapistCard };
 
 export default Card;
