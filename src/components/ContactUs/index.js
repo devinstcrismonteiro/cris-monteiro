@@ -13,7 +13,7 @@ const ContactUs = () => (
           enviar sua opinião a respeito da sua experiência no nosso website e
           com nossos produtos.
         </p>
-        <Link href="https://wa.me/5511915015788" passHref>
+        <Link href="https://wa.me/5511993441666" passHref>
           <a target="_blank" id="home-btn-fale-conosco">
             <Button>Enviar mensagem</Button>
           </a>

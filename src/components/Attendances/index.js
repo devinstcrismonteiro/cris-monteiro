@@ -9,7 +9,7 @@ const Attendances = ({ data }) => (
         key={item.id}
         slider
         first={index === 0}
-        url="https://wa.me/5511915015788"
+        url="https://wa.me/5511993441666"
         openOnNewTab
         {...item}
       />

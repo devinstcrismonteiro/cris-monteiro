@@ -128,7 +128,7 @@ const TherapistCard = ({ image, description, name }) => {
           <div className="card-content">
             <h3>{name}</h3>
             <p style={{ textAlign: "justify", flexGrow: 1 }}>{description}</p>
-            <Link href="https://wa.me/5511915015788" passHref>
+            <Link href="https://wa.me/5511993441666" passHref>
               <Button as="a" target="_blank">
                 Saiba mais!
               </Button>

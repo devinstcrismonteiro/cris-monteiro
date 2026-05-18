@@ -7,7 +7,7 @@ import { atendimentosResume } from "../utils";
 const Terapeutas = () => (
   <>
     {/* <HeroAttendance /> */}
-    <SectionAttendance openOnNewTab url="https://wa.me/5511915015788" />
+    <SectionAttendance openOnNewTab url="https://wa.me/5511993441666" />
     <Attendances data={atendimentosResume} />
   </>
 );
