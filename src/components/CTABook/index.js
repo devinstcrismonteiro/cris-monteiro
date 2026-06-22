@@ -33,6 +33,7 @@ const CTABookHome = () => (
         </div>
       </div>
     </Container>
+    <div className="line" />
   </S.Wrapper>
 );
 

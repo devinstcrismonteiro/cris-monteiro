@@ -1,7 +1,6 @@
 import { format } from 'date-fns'
 import ptBR from 'date-fns/locale/pt-BR'
 
-import PresencialImg from '../assets/images/presencial.jpg'
 import OnlineImg from '../assets/images/terapia-online.jpg'
 import ApoioImage from '../assets/images/apoio-relacionamento.jpg'
 import AvaliacaoImage from '../assets/images/avaliacao.jpg'
@@ -23,14 +22,7 @@ export const formatDate = (data) => {
 
 export const atendimentos = [
   {
-    title: 'Presencial',
-    shortDescription: ' ',
-    image: PresencialImg,
-    url: '/atendimento',
-    slug: 'btn-atendimento-presencial',
-  },
-  {
-    title: 'Online',
+    title: 'Terapia para casal e família',
     shortDescription: ' ',
     image: OnlineImg,
     url: '/atendimento',
@@ -49,7 +41,7 @@ export const atendimentosResume = [
   {
     title: 'Terapia de casal (Individual ou em conjunto)',
     shortDescription:
-      '<p>Nosso serviço mais requisitado. Vamos solucionar as dificuldades de seu relacionamento e resgatar sua esperança!</p>',
+      '<p>O serviço mais requisitado. Vamos solucionar as dificuldades de seu relacionamento e resgatar sua esperança!</p>',
     image: TerapiaCasalImage,
     slug: 'btn-atendimento-terapia-casal',
   },
@@ -74,9 +66,9 @@ export const atendimentosResume = [
     slug: 'btn-atendimento-apoio',
   },
   {
-    title: 'Consultoria de planejamento',
+    title: 'Capacitação Método IC',
     shortDescription:
-      '<p>A sua consultoria de gestão de tarefas - pessoais, familiares ou profissionais - totalmente personalizada!</p>',
+      '<p>Formação desenvolvida por Cris Monteiro para profissionais que desejam aprofundar seus conhecimentos em relacionamentos, mediação conjugal, investigação relacional e restauração de vínculos. e deixar esse destaque como o quarto no carrossel dos destaques</p>',
     image: ConsultoriaImage,
     slug: 'btn-atendimento-consultoria',
   },

@@ -69,7 +69,6 @@ const Card = ({
 
             {props.type !== "blog" && short_content && (
               <p
-                style={{ margin: "auto 0" }}
                 dangerouslySetInnerHTML={{ __html: short_content }}
               />
             )}

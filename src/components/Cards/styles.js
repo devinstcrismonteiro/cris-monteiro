@@ -44,6 +44,7 @@ export const Card = styled.div`
 
     p {
       margin-bottom: 1rem;
+      flex-grow: 1;
       small {
         font-size: 12px;
       }

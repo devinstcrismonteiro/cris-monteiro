@@ -7,23 +7,20 @@ import CoursesContent from '../../components/CoursesContent'
 import Attendance from '../../components/SectionAttendance'
 import BlogContent from '../../components/BlogContent'
 import ContactUs from '../../components/ContactUs'
-import { Therapists } from '../../components/SectionTherapists'
-
 import { Container } from '../../styles/base'
 
 export default function Home({ posts, courses }) {
   return (
     <>
       <HeroHome />
-      <CoursePreview />
       <CTABookHome />
+      <CoursePreview />
       <section style={{ background: '#fffbfc' }}>
         <Container>
           <ChannelNews />
         </Container>
       </section>
       <YoutubeChannel />
-      <Therapists/>
       <CoursesContent data={courses} id="home-todos-cursos" />
       <Attendance hasLink bgWhite />
       <BlogContent data={posts} />
