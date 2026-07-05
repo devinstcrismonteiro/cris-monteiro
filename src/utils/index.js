@@ -23,7 +23,8 @@ export const formatDate = (data) => {
 export const atendimentos = [
   {
     title: 'Terapia para casal e família',
-    shortDescription: ' ',
+    shortDescription:
+      '<p>Atendimento online e presencial para casais e famílias que desejam reconstruir vínculos e reencontrar a harmonia.</p>',
     image: OnlineImg,
     url: '/atendimento',
     slug: 'btn-atendimento-online',
@@ -53,6 +54,13 @@ export const atendimentosResume = [
     slug: 'btn-atendimento-conciliacao',
   },
   {
+    title: 'Capacitação Método IC',
+    shortDescription:
+      '<p>Formação desenvolvida por Cris Monteiro para profissionais que desejam aprofundar seus conhecimentos em relacionamentos, mediação conjugal, investigação relacional e restauração de vínculos.</p>',
+    image: ConsultoriaImage,
+    slug: 'btn-atendimento-consultoria',
+  },
+  {
     title: 'Intermediação emergencial ou agendada',
     shortDescription:
       '<p>Um método alternativo de solução de conflitos, desordens ou divergências. Presencialmente, na sua casa, na sua empresa, na sua vida...</p>',
@@ -64,12 +72,5 @@ export const atendimentosResume = [
     shortDescription: '<p>Por um ambiente mais democrático e harmonioso... Entre irmãos, padrastos, enteados, ou qualquer relação que encontra-se desgastada.</p>',
     image: ApoioImage,
     slug: 'btn-atendimento-apoio',
-  },
-  {
-    title: 'Capacitação Método IC',
-    shortDescription:
-      '<p>Formação desenvolvida por Cris Monteiro para profissionais que desejam aprofundar seus conhecimentos em relacionamentos, mediação conjugal, investigação relacional e restauração de vínculos. e deixar esse destaque como o quarto no carrossel dos destaques</p>',
-    image: ConsultoriaImage,
-    slug: 'btn-atendimento-consultoria',
   },
 ]
