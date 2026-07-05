@@ -20,11 +20,17 @@ const HeroHome = () => (
             Matrimônio, relacionamentos e família.
           </h1>
           <p>
-            Meu nome é Cris Monteiro, sou pioneira em aconselhamentos afetivos
-            no Brasil e uma das maiores referências em assuntos amorosos do
-            país, estrategista e especialista em restauração de casamentos,
-            mediação (casal e família), conciliação, reabilitação, superação,
-            qualidade de convivência e resolução de conflitos.
+            Sou Cris Monteiro, pioneira em aconselhamentos afetivos no Brasil e
+            uma das maiores referências em assuntos amorosos do país, autora do
+            livro Quem Ama Não Desiste, criadora do Método IC e fundadora do
+            Instituto do Casamento. Dedico minha trajetória à restauração de
+            casamentos, reconquista, mediação, conciliação, resolução de
+            conflitos, superação, fortalecimento dos relacionamentos e à
+            formação de profissionais para atuação com casais e famílias.
+          </p>
+
+          <p className="slogan">
+            Quem ama não desiste sem antes compreender, reparar e reconstruir.
           </p>
 
           <Link href="/sobre-mim" passHref>

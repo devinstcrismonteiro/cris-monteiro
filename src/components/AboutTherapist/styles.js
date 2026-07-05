@@ -33,9 +33,23 @@ export const Wrapper = styled.section`
     flex-direction: column;
     margin-top: 4rem;
     gap: 10px;
-    
+
     p {
       font-size: 19px;
+      text-align: justify;
+    }
+  }
+
+  .closing {
+    margin-top: 3rem;
+
+    h2 {
+      margin-bottom: 1.5rem;
+    }
+
+    p {
+      font-size: 19px;
+      text-align: justify;
     }
   }
 `

@@ -99,6 +99,13 @@ export const TextHero = styled.div`
     line-height: 1.2;
   }
 
+  .slogan {
+    margin-top: 1.5rem;
+    color: var(--primary);
+    font-style: italic;
+    font-weight: 600;
+  }
+
   button,
   a {
     margin-right: auto;

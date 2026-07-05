@@ -17,11 +17,23 @@ const CTABookHome = () => (
         </div>
         <div className="book-cta-text">
           <h1>Lançamento do Livro</h1>
+          <p className="book-quote">
+            “A possibilidade de restaurar o improvável é o que torna a minha
+            vida mais interessante.”
+          </p>
           <p>
-            Quem ama não desiste! “A possibilidade de restaurar o improvável é o
-            que torna a minha vida mais interessante”. <br /> Adquira meu manual
-            de inteligência emocional íntima para ser feliz. Sim, você pode
-            salvar o seu casamento.
+            Neste livro, compartilho reflexões, aprendizados e experiências
+            construídas ao longo de milhares de histórias de casais e famílias
+            que me ensinaram que muitos relacionamentos ainda podem ser
+            reconstruídos quando existe disposição para compreender, reparar e
+            recomeçar.
+          </p>
+          <p>
+            Quem Ama Não Desiste é um convite para enxergar os relacionamentos
+            com mais maturidade, consciência e esperança, sem ignorar os
+            desafios que fazem parte da convivência humana. Porque antes de
+            desistir, vale a pena entender se todas as possibilidades realmente
+            foram esgotadas.
           </p>
           <ButtonShop
             id="home-btn-book"

@@ -17,8 +17,8 @@ const AboutTherapist = ({ data }) => (
               <br /> sobre a Cris
             </h1>
             <p>
-              Matrimônio, restauração, mediação, conciliação, reabilitação,
-              convivência e resolução de conflitos.
+              Quem ama não desiste sem antes compreender, reparar e
+              reconstruir.
             </p>
           </div>
           <Img src={Img1} alt="Cris 1" className="img-load" />
@@ -29,20 +29,37 @@ const AboutTherapist = ({ data }) => (
     <Container>
       <div className="content">
         <p>
-          Idealizadora e fundadora do Instituto Cris Monteiro, também sou escritora, palestrante, terapeuta matrimonial holística. Sou apresentadora de um canal no YouTube, com mais de 297.000 seguidores, no qual abordo temas relacionados à melhoria do casamento, empoderamento feminino e superação, mostrando como é possível serem bem resolvidos e casados ao mesmo tempo. 
+          Sou Cris Monteiro, pesquisadora de relacionamentos, terapeuta matrimonial, autora do livro Quem Ama Não Desiste, criadora do Método IC e fundadora do Instituto do Casamento.
         </p>
         <p>
-          Sou Terapeuta de casal, com mais de 7 mil casos atendidos ao longo de minha carreira, ou seja, 22 mil atendimentos e milhares de resultados de sucesso e reconhecimento em minhas Avaliações, Estratégias e Pioneirismo em minhas Consultorias Amorosas. Dona de uma emocionante história de amor e superação, na qual me tornei mãe e viúva muito cedo, ajudo esposas e maridos a salvarem seus relacionamentos, serem bem resolvidos e bem sucedidos no casamento.
+          Há anos dedico minha vida ao estudo dos relacionamentos humanos, acompanhando casais e famílias em seus desafios, conflitos, recomeços e processos de reconstrução. Ao longo dessa trajetória, realizei mais de 30 mil atendimentos e estudei mais de 3 mil casos de casais e famílias, experiências que contribuíram para ampliar minha compreensão sobre as dinâmicas relacionais e para o desenvolvimento da metodologia que utilizo atualmente.
         </p>
         <p>
-          Sou licenciada pela Associação Brasileira dos Terapeutas, acadêmica em Mediação, mentora de relacionamentos, com especialização em: Terapia Integrativa aplicada a saúde e bem-estar da mulher; Terapêuticos para prevenção e bem-estar humano; Nutrição Holística e Nutracêuticos pela Associação Brasileira dos Terapeutas; Terapia Ortomolecular e estética aplicada ao bem-estar físico, mental, estético e emocional. Fitoterapia enquanto técnica holística, natural, complementar e integrativa e sua atuação no campo físico, mental, emocional e energético para restabelecer o equilíbrio, o bem-estar e a energia. Transtornos Ansiosos e Depressivos, pelo Instituto israelita e Pesquisa Albert Einstein.
+          Minha atuação é voltada à restauração de vínculos, à mediação de conflitos e ao fortalecimento das relações humanas. Acredito que, por trás de muitos problemas, existem histórias, necessidades, expectativas e dores que precisam ser compreendidas antes de serem julgadas.
         </p>
         <p>
-        Frequentemente sou convidada a participar, contribuindo com meu conhecimento, nos principais jornais, portais e programas de TV do Brasil.
+          Também sou idealizadora do Instituto Cris Monteiro, palestrante e apresentadora do canal Cris Monteiro no YouTube, que reúne mais de 300 mil seguidores em busca de orientação para seus relacionamentos, suas famílias e seus desafios de convivência.
         </p>
         <p>
-          "A possibilidade de restaurar o improvável é o que torna a minha vida mais interessante" (trecho do meu livro Quem ama não desiste).
+          Ao longo dos anos, desenvolvi o Método IC a partir da observação, pesquisa e acompanhamento de milhares de histórias reais. O método nasceu da prática, da investigação constante e da busca por caminhos mais eficazes para ajudar pessoas a compreenderem seus relacionamentos, fortalecerem seus vínculos e encontrarem novas possibilidades diante das dificuldades da vida a dois e da convivência familiar.
         </p>
+        <p>
+          Hoje, além dos atendimentos realizados por mim e pelos profissionais vinculados ao Instituto do Casamento, também me dedico à formação e capacitação de profissionais que desejam atuar com casais e famílias utilizando os fundamentos do Método IC.
+        </p>
+        <p>
+          Minha própria história também foi marcada por experiências que me ensinaram sobre amor, perdas, recomeços e reconstrução. Essas vivências contribuíram para ampliar minha compreensão sobre os relacionamentos humanos e fortaleceram minha convicção de que, mesmo diante das maiores dificuldades, sempre é possível encontrar novos caminhos.
+        </p>
+        <p>
+          Frequentemente sou convidada a compartilhar meu conhecimento em jornais, portais, podcasts e programas de televisão, contribuindo para o debate sobre relacionamentos, família e convivência humana.
+        </p>
+        <p>
+          "A possibilidade de restaurar o improvável é o que torna a minha vida mais interessante" (Trecho do livro Quem Ama Não Desiste).
+        </p>
+      </div>
+      <div className="closing">
+        <h2>
+          Sim, muitos relacionamentos podem ser restaurados quando existe direção
+        </h2>
       </div>
     </Container>
   </S.Wrapper>

@@ -28,7 +28,7 @@ const HeroTherapist = () => (
       <div className="text">
         <Container>
           <p>
-            Idealizadora e fundadora do Instituto Cris Monteiro, também sou escritora, palestrante, terapeuta matrimonial holística e apresentadora de um canal no YouTube com mais de 280.000 seguidores
+            Cris Monteiro é pesquisadora de relacionamentos, terapeuta matrimonial, autora do livro Quem Ama Não Desiste, criadora do Método IC e fundadora do Instituto do Casamento. Ao longo de sua trajetória, realizou mais de 30 mil atendimentos e estudou mais de 3 mil casos de casais e famílias, experiência que serviu de base para o desenvolvimento de sua metodologia voltada à restauração de vínculos, mediação de conflitos e fortalecimento dos relacionamentos. Também é palestrante e apresentadora de um canal no YouTube com mais de 300 mil seguidores.
           </p>
         </Container>
       </div>

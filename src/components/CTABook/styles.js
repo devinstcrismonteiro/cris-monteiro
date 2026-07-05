@@ -23,9 +23,22 @@ export const Wrapper = styled.section`
     align-items: center;
 
     &-text {
+      h1 {
+        margin-bottom: 1.5rem;
+      }
+
+      .book-quote {
+        color: var(--primary_dark);
+        font-style: italic;
+        font-size: 23px;
+        line-height: 1.35;
+        margin-bottom: 1.5rem;
+      }
+
       p {
-        font-size: 22px;
-        margin: 1.5rem 0;
+        font-size: 19px;
+        line-height: 1.55;
+        margin: 0 0 1rem;
       }
     }
   }
